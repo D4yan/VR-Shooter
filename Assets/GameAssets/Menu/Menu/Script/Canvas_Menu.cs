@@ -54,7 +54,7 @@ public class Canvas_Menu : MonoBehaviour
 
         ChangeText("Ziehe deine Waffe wenn du bereit bist los zu starten.");
 
-        yield return new WaitForSeconds(50);
+        yield return new WaitForSeconds(10);
 
         // Hier fehlt ein Event bei dem der Spieler seine Waffe zieht
         DeactivateCanvas();
